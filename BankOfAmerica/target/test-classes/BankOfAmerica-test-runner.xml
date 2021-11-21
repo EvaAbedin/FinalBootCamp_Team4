@@ -1,0 +1,22 @@
+
+<!DOCTYPE suite SYSTEM "https://testing.org/testng-1.0.dtd">
+
+<suite name="BankOfAmerica Automation Scipt" parallel="false">
+
+    <parameter name="useCloudEnv" value="flase"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Windows"/>
+    <!--<parameter name="os_version" value="Sierra"/>-->
+    <parameter name="browserName" value="chrome"/>
+    <!--<parameter name="browserVersion" value="65.0"/>-->
+    <parameter name="url" value="https://www.BankOfAmerica.com"/>
+    <test name = "smoke testing BankOfAmerica search">
+        <classes>
+
+
+
+            <class name="testhome.LogInTest"/>
+        </classes>
+    </test>
+
+</suite>
