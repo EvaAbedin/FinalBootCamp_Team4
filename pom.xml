@@ -13,6 +13,7 @@
     <module>Walmart</module>
     <module>BankOfAmerica</module>
     <module>Amazon</module>
+      <module>UnitedHealthCare</module>
   </modules>
 
   <name>FinalBootCamp_Team4</name>

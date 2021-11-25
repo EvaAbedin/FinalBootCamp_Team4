@@ -8,15 +8,11 @@
     <!--<parameter name="os_version" value="Sierra"/>-->
     <parameter name="browserName" value="chrome"/>
     <!--<parameter name="browserVersion" value="65.0"/>-->
-    <parameter name="url" value="https://www.Walmart.com"/>
+    <parameter name="url" value="https://www.uhc.com"/>
     <test name = "smoke testing Walmart search">
         <classes>
-            <class name="test.HomeTest"/>
-            <class name="test.LogInTest"/>
-            <class name="test.TestDepartment"/>
-            <class name="test.TestServices"/>
-            <class name="test.TestCart"/>
-            <class name="test.TestPopularServices"/>
+                <class name="testhome.TestMainPage"/>-->
+         <!--   <class name="testhome.TestMedicare"/>-->
 
         </classes>
     </test>

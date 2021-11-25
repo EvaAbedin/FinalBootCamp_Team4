@@ -15,10 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 
@@ -44,7 +41,7 @@ public class CommonAPI {
     public String saucelabs_accesskey = "";
     boolean flag = false;
 
-    //ExtentReport
+    @ExtentReport
     public static com.relevantcodes.extentreports.ExtentReports extent;
 
     @BeforeSuite
@@ -67,7 +64,7 @@ public class CommonAPI {
         return sw.toString();
     }
 
-    //@AfterMethod
+    @AfterMethod
     public void afterEachTestMethod(ITestResult result) {
         ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
         ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
@@ -90,7 +87,7 @@ public class CommonAPI {
         }
         driver.quit();
     }
-   // @AfterSuite
+    @AfterSuite
     public void generateReport() {
         extent.close();
     }
@@ -120,7 +117,7 @@ public class CommonAPI {
             if (OS.equalsIgnoreCase("OS X")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\nassi\\IdeaProjects\\FinalProject\\Generic\\driver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\zabin\\IdeaProjects\\FinalBootCamp_Team4\\Generic\\driver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {
