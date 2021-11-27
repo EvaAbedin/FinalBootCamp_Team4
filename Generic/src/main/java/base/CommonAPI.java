@@ -87,7 +87,11 @@ public class CommonAPI {
         }
         driver.quit();
     }
+<<<<<<< HEAD
    @AfterSuite
+=======
+    @AfterSuite
+>>>>>>> 2bf7ae71f17a7c31525612d8e779b5466e007f18
     public void generateReport() {
         extent.close();
     }
@@ -117,7 +121,11 @@ public class CommonAPI {
             if (OS.equalsIgnoreCase("OS X")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
+<<<<<<< HEAD
                 System.setProperty("webdriver.chrome.driver", "C:\\Users\\russe\\PNT\\FinalBootCamp_Team4\\Generic\\driver\\chromedriver.exe");
+=======
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\zabin\\IdeaProjects\\FinalBootCamp_Team4\\Generic\\driver\\chromedriver.exe");
+>>>>>>> 2bf7ae71f17a7c31525612d8e779b5466e007f18
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("firefox")) {

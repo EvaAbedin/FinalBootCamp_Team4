@@ -4,4 +4,7 @@ reporting\ApplicationLog.class
 reporting\TestLogger.class
 utility\DataReader.class
 base\CommonAPI.class
+<<<<<<< HEAD
 database\ConnectDB.class
+=======
+>>>>>>> 2bf7ae71f17a7c31525612d8e779b5466e007f18
