@@ -10,8 +10,10 @@
         <module name="Amazon" />
         <module name="BankOfAmerica" />
         <module name="Generic" />
-        <module name="UnitedHealthCare" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="UnitedHealthCare" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -116,14 +116,4 @@ public class TestCart extends CommonAPI {
         homePage.getAddCart();
         waitFor(3);}
 
-
-
-
-
-
-
-
-
-
-
 }

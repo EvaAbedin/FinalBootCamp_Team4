@@ -74,5 +74,12 @@ public class HomeTest extends CommonAPI {
     public void test10() throws InterruptedException {
         Home homePage = PageFactory.initElements(driver, Home.class);
         homePage.getPatioandgarden();
-        homePage.getHomeImprovrmrnt();}
+        homePage.getHomeImprovrmrnt();
+        waitFor(3);}
+    @Test
+    public void test101() throws InterruptedException {
+        Home homePage = PageFactory.initElements(driver, Home.class);
+        homePage.getRegistries();
+        waitFor(3);}
+
 }

@@ -68,10 +68,28 @@ public class TestServices extends CommonAPI {
         homePage.getRxTransfers();
         homePage.getCreateNewAccount();
         waitFor(3);}
-
-
-
-
+    @Test
+    public void test38() throws InterruptedException {
+        Services homePage = PageFactory.initElements(driver, Services.class);
+        homePage.getServices();
+        homePage.getAllServices();
+        homePage.getHealthServices();
+        homePage.getPharmacy();
+        homePage.getRxTransfers();
+        homePage.getCreateNewAccount();
+        homePage.getPrivacyNotice();
+        waitFor(3);}
+    @Test
+    public void test39() throws InterruptedException {
+        Services homePage = PageFactory.initElements(driver, Services.class);
+        homePage.getServices();
+        homePage.getAllServices();
+        homePage.getHealthServices();
+        homePage.getPharmacy();
+        homePage.getRxTransfers();
+        homePage.getCreateNewAccount();
+        homePage.getLeavePharmacy();
+        waitFor(3);}
 
 
 }

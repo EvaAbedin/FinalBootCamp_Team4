@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 
 public class Home extends CommonAPI {
 
-     //Test 1:
      @FindBy(xpath = "//input[@type='search']")
      WebElement searchItems;
      @FindBy(xpath = "//span[@class='mr2']")
@@ -20,25 +19,21 @@ public class Home extends CommonAPI {
      public void searchItems(String str) {typeEnter(getSearchItems(), str);}
      public void ClickOnItem() {clickOn(getClickOnItem());}
 
-     //Test 2:
      @FindBy(xpath = "//a[@link-identifier='Departments']")
      WebElement dropDownDepartment;
      public WebElement getDropDownDepartment() { return dropDownDepartment; }
      public void DropDownDepartment() { clickOn(getDropDownDepartment());}
 
-     //Test 3:
      @FindBy(xpath = "//button[normalize-space()='Grocery']")
      WebElement grocery;
      public WebElement getGrocery() { return grocery; }
      public void Grocery() { clickOn(getGrocery()); }
 
-     //Test 4:
      @FindBy(xpath = "//button[@aria-label='Add to cart - Smart50 Sea Salt Popcorn, 5 Oz.']")
      WebElement chips;
      public WebElement getChips() { return chips;}
      public void CliclonItems() { clickOn(getChips()); }
 
-     //Test 4:
      @FindBy(xpath = "//button[normalize-space()='Clothing, Shoes & Accessories']")
      WebElement clothingShoesAccessories;
      @FindBy(xpath = "//a[@link-identifier='Clothing']")
@@ -56,7 +51,6 @@ public class Home extends CommonAPI {
      public void ScootJacket() { clickOn(getScootJacket());}
      public void AddtoList7() {clickOn(getAddtoList());}
 
-     //Test 4:
      @FindBy(xpath = "//a[@link-identifier='Shop All ']")
      WebElement shopAll;
      @FindBy(xpath = "//button[@aria-label='Food Gifts & Candy']")
@@ -66,7 +60,6 @@ public class Home extends CommonAPI {
      public void ShopAll() { clickOn(getShopAll()); }
      public void FoodGiftCandy() { clickOn(getFoodGiftCandy()); }
 
-     //Test 5:
     @FindBy(xpath = "//a[@link-identifier='Services']")
      WebElement services;
      @FindBy(xpath = "//button[contains(text(),'Health Services')]")
@@ -80,14 +73,12 @@ public class Home extends CommonAPI {
      public void HealthServices() {clickOn(getHealthServices());}
      public void Pharmacy() {clickOn(getPharmacy());}
 
-     //Test 6:
      @FindBy(xpath = "//button[contains(text(),'Flu shot')]")
      WebElement flushot;
      @FindBy(xpath = "//button[contains(text(),'COVID-19 vaccines')]")
      WebElement covid19vaccines;
      @FindBy(xpath = "//button[contains(text(),'Refill Rx')]")
      WebElement refillrx;
-
      public WebElement getFlushot() {return flushot;}
      public WebElement getCovid19vaccines() {return covid19vaccines;}
      public WebElement getRefillrx() {return refillrx;}
@@ -95,7 +86,6 @@ public class Home extends CommonAPI {
      public void Covid10Vaciine () {clickOn(getCovid19vaccines());}
      public void RefillRx () {clickOn(getRefillrx());}
 
-     //Test 6:
      @FindBy(xpath = "//button[contains(text(),'Baby')]")
      WebElement baby;
      @FindBy(xpath = "//button[contains(text(),'Toys & Video Games')]")
@@ -104,7 +94,6 @@ public class Home extends CommonAPI {
      WebElement electronics;
      @FindBy(xpath = "//button[contains(text(),'Beauty')]")
      WebElement beauty;
-
      public WebElement getBaby() {return baby;}
      public WebElement getToysandvideogames() {return toysandvideogames;}
      public WebElement getElectronics() {return electronics;}
@@ -114,22 +103,19 @@ public class Home extends CommonAPI {
      public void Electronics () {clickOn(getElectronics());}
      public void Beauty() {clickOn(getBeauty());}
 
-     //Test 7:
      @FindBy(xpath = ("//header/div[1]/div[5]/button[1]/i[1]"))
      WebElement cart;
      public WebElement getCart() {return cart;}
      public void Cart() {clickOn(getCart());}
 
-     //Test 8:
      @FindBy(xpath = ("//a[@Link-identifier='Departments']"))
      WebElement departments;
      public WebElement getDepartments() {return departments;}
      public void hoverOver(WebDriver driver, WebElement element){
          Actions action = new Actions(driver);
          action.moveToElement(departments).build().perform();
-         driver.findElement(By.xpath("//header/div[1]/div[1]/a[1]"));
-     }
-    //Test 9:
+         driver.findElement(By.xpath("//header/div[1]/div[1]/a[1]"));}
+
      @FindBy(xpath = ("//a[contains(text(),'Shop deals')]"))
      WebElement  shopdeals;
      @FindBy(xpath = ("//button[contains(text(),'See times')]"))
@@ -139,16 +125,18 @@ public class Home extends CommonAPI {
      public void Shopdeals() {clickOn(getShopdeals());}
      public void seetimes() {clickOn(getSeetimes());}
 
-     //Test 10:
      @FindBy(xpath = ("//button[contains(text(),'Patio & Garden')]"))
      WebElement patioandgarden;
      @FindBy(xpath = ("//button[contains(text(),'Home Improvement')]"))
      WebElement homeImprovrmrnt;
-
      public WebElement getPatioandgarden() {return patioandgarden;}
      public WebElement getHomeImprovrmrnt() {return homeImprovrmrnt;}
      public void Patioandgarden() {clickOn(getPatioandgarden());}
      public void HomeImprovement() {clickOn(getHomeImprovrmrnt());}
+
+    @FindBy(xpath = "//header/div[1]/div[3]/div[1]/div[1]/a[3]")
+    WebElement registries;public WebElement getRegistries() {return registries;}
+    public void registries(){clickOn(getRegistries());}
 
  }
 

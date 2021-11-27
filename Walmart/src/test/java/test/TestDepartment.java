@@ -87,8 +87,5 @@ import reporting.TestLogger;
              homePage.getTires();
              waitFor(3);}
 
-
-
-
              }
 

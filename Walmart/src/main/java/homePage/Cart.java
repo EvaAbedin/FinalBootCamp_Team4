@@ -34,7 +34,6 @@ public class Cart extends CommonAPI {
     public WebElement getTurkey() {return turkey;}
     public void Turkey() {clickOn(getTurkey());}
 
-    //Test 43:
     @FindBy(xpath = "//span[contains(text(),'Add to cart')]")
     WebElement addToCart;
     public WebElement getAddToCart() {return addToCart;}

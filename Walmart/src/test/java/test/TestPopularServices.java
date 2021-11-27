@@ -110,14 +110,4 @@ public class TestPopularServices extends CommonAPI {
         homePage.getSignIn();
         waitFor(3);}
 
-
-
-
-
-
-
-
-
-
-
 }

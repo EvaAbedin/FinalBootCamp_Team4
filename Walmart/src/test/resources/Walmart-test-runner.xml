@@ -17,7 +17,9 @@
             <class name="test.TestServices"/>
             <class name="test.TestCart"/>
             <class name="test.TestPopularServices"/>
-
+            <class name="test.TestPurchaseHistory"/>
+            <class name="test.TestShopDeals"/>
+            <class name="test.TestClothingAndShoes"/>
         </classes>
     </test>
 
