@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\russe\PNT\FinalBootCamp_Team4\BankOfAmerica\test-output\html]]>
+    </line>
+  </reporter-output>
+  <suite name="BankOfAmerica Automation Scipt" duration-ms="190645" started-at="2021-11-26T17:37:54 EST" finished-at="2021-11-26T17:41:05 EST">
+    <groups>
+    </groups>
+    <test name="smoke testing BankOfAmerica search" duration-ms="190645" started-at="2021-11-26T17:37:54 EST" finished-at="2021-11-26T17:41:05 EST">
+      <class name="testHomePage.TestCreditCards">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="extentSetup" is-config="true" duration-ms="258" started-at="2021-11-26T17:37:54 EST" finished-at="2021-11-26T17:37:54 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@706f6d26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\russe\PNT\FinalBootCamp_Team4\BankOfAmerica\test-output\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="4599" started-at="2021-11-26T17:37:54 EST" finished-at="2021-11-26T17:37:59 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="8" started-at="2021-11-26T17:37:59 EST" finished-at="2021-11-26T17:37:59 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test46() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test46()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test46" duration-ms="2405" started-at="2021-11-26T17:37:59 EST" finished-at="2021-11-26T17:38:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test46 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="1077" started-at="2021-11-26T17:38:01 EST" finished-at="2021-11-26T17:38:02 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test46 status=SUCCESS method=TestCreditCards.test46()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="3" started-at="2021-11-26T17:38:02 EST" finished-at="2021-11-26T17:38:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2418" started-at="2021-11-26T17:38:02 EST" finished-at="2021-11-26T17:38:05 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:38:05 EST" finished-at="2021-11-26T17:38:05 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test47() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test47()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test47" duration-ms="3428" started-at="2021-11-26T17:38:05 EST" finished-at="2021-11-26T17:38:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test47 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="784" started-at="2021-11-26T17:38:08 EST" finished-at="2021-11-26T17:38:09 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test47 status=SUCCESS method=TestCreditCards.test47()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:09 EST" finished-at="2021-11-26T17:38:09 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2448" started-at="2021-11-26T17:38:09 EST" finished-at="2021-11-26T17:38:11 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:11 EST" finished-at="2021-11-26T17:38:11 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test48() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test48()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test48" duration-ms="5138" started-at="2021-11-26T17:38:11 EST" finished-at="2021-11-26T17:38:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test48 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="768" started-at="2021-11-26T17:38:16 EST" finished-at="2021-11-26T17:38:17 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test48 status=SUCCESS method=TestCreditCards.test48()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-26T17:38:17 EST" finished-at="2021-11-26T17:38:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2416" started-at="2021-11-26T17:38:17 EST" finished-at="2021-11-26T17:38:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:38:20 EST" finished-at="2021-11-26T17:38:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test49() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test49()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test49" duration-ms="4534" started-at="2021-11-26T17:38:20 EST" finished-at="2021-11-26T17:38:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test49 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="754" started-at="2021-11-26T17:38:24 EST" finished-at="2021-11-26T17:38:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test49 status=SUCCESS method=TestCreditCards.test49()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:25 EST" finished-at="2021-11-26T17:38:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2442" started-at="2021-11-26T17:38:25 EST" finished-at="2021-11-26T17:38:27 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:27 EST" finished-at="2021-11-26T17:38:27 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test50() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test50()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test50" duration-ms="5226" started-at="2021-11-26T17:38:27 EST" finished-at="2021-11-26T17:38:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test50 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="826" started-at="2021-11-26T17:38:33 EST" finished-at="2021-11-26T17:38:33 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test50 status=SUCCESS method=TestCreditCards.test50()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-26T17:38:33 EST" finished-at="2021-11-26T17:38:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2302" started-at="2021-11-26T17:38:33 EST" finished-at="2021-11-26T17:38:36 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:38:36 EST" finished-at="2021-11-26T17:38:36 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test51() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test51()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test51" duration-ms="3628" started-at="2021-11-26T17:38:36 EST" finished-at="2021-11-26T17:38:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test51 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="732" started-at="2021-11-26T17:38:39 EST" finished-at="2021-11-26T17:38:40 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test51 status=SUCCESS method=TestCreditCards.test51()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:40 EST" finished-at="2021-11-26T17:38:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2107" started-at="2021-11-26T17:38:40 EST" finished-at="2021-11-26T17:38:42 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:42 EST" finished-at="2021-11-26T17:38:42 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test52() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test52()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test52" duration-ms="2336" started-at="2021-11-26T17:38:42 EST" finished-at="2021-11-26T17:38:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test52 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="780" started-at="2021-11-26T17:38:45 EST" finished-at="2021-11-26T17:38:45 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test52 status=SUCCESS method=TestCreditCards.test52()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:45 EST" finished-at="2021-11-26T17:38:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2126" started-at="2021-11-26T17:38:45 EST" finished-at="2021-11-26T17:38:47 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:47 EST" finished-at="2021-11-26T17:38:47 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test53() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test53()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test53" duration-ms="5525" started-at="2021-11-26T17:38:47 EST" finished-at="2021-11-26T17:38:53 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test53 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="942" started-at="2021-11-26T17:38:53 EST" finished-at="2021-11-26T17:38:54 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test53 status=SUCCESS method=TestCreditCards.test53()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:54 EST" finished-at="2021-11-26T17:38:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2912" started-at="2021-11-26T17:38:54 EST" finished-at="2021-11-26T17:38:57 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:38:57 EST" finished-at="2021-11-26T17:38:57 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test54() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test54()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test54" duration-ms="2650" started-at="2021-11-26T17:38:57 EST" finished-at="2021-11-26T17:38:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test54 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="769" started-at="2021-11-26T17:38:59 EST" finished-at="2021-11-26T17:39:00 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test54 status=SUCCESS method=TestCreditCards.test54()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:00 EST" finished-at="2021-11-26T17:39:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2306" started-at="2021-11-26T17:39:00 EST" finished-at="2021-11-26T17:39:03 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:39:03 EST" finished-at="2021-11-26T17:39:03 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test55() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test55()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test55" duration-ms="4044" started-at="2021-11-26T17:39:03 EST" finished-at="2021-11-26T17:39:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test55 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="830" started-at="2021-11-26T17:39:07 EST" finished-at="2021-11-26T17:39:07 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test55 status=SUCCESS method=TestCreditCards.test55()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:07 EST" finished-at="2021-11-26T17:39:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2192" started-at="2021-11-26T17:39:07 EST" finished-at="2021-11-26T17:39:10 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:39:10 EST" finished-at="2021-11-26T17:39:10 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test56() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test56()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test56" duration-ms="5913" started-at="2021-11-26T17:39:10 EST" finished-at="2021-11-26T17:39:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test56 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="795" started-at="2021-11-26T17:39:16 EST" finished-at="2021-11-26T17:39:16 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test56 status=SUCCESS method=TestCreditCards.test56()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:16 EST" finished-at="2021-11-26T17:39:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="3042" started-at="2021-11-26T17:39:16 EST" finished-at="2021-11-26T17:39:19 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:19 EST" finished-at="2021-11-26T17:39:19 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test57() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test57()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test57" duration-ms="4925" started-at="2021-11-26T17:39:19 EST" finished-at="2021-11-26T17:39:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test57 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="768" started-at="2021-11-26T17:39:24 EST" finished-at="2021-11-26T17:39:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test57 status=SUCCESS method=TestCreditCards.test57()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:25 EST" finished-at="2021-11-26T17:39:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2539" started-at="2021-11-26T17:39:25 EST" finished-at="2021-11-26T17:39:28 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:39:28 EST" finished-at="2021-11-26T17:39:28 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test58() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test58()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test58" duration-ms="4899" started-at="2021-11-26T17:39:28 EST" finished-at="2021-11-26T17:39:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test58 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="796" started-at="2021-11-26T17:39:33 EST" finished-at="2021-11-26T17:39:33 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test58 status=SUCCESS method=TestCreditCards.test58()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:33 EST" finished-at="2021-11-26T17:39:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2534" started-at="2021-11-26T17:39:33 EST" finished-at="2021-11-26T17:39:36 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test59()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test59" duration-ms="5192" started-at="2021-11-26T17:39:36 EST" finished-at="2021-11-26T17:39:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test59 -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:39:36 EST" finished-at="2021-11-26T17:39:36 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test59() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="819" started-at="2021-11-26T17:39:41 EST" finished-at="2021-11-26T17:39:42 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test59 status=SUCCESS method=TestCreditCards.test59()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:42 EST" finished-at="2021-11-26T17:39:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2430" started-at="2021-11-26T17:39:42 EST" finished-at="2021-11-26T17:39:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:44 EST" finished-at="2021-11-26T17:39:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test60() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test60()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test60" duration-ms="2628" started-at="2021-11-26T17:39:44 EST" finished-at="2021-11-26T17:39:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test60 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="864" started-at="2021-11-26T17:39:47 EST" finished-at="2021-11-26T17:39:48 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test60 status=SUCCESS method=TestCreditCards.test60()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:48 EST" finished-at="2021-11-26T17:39:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2160" started-at="2021-11-26T17:39:48 EST" finished-at="2021-11-26T17:39:50 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:50 EST" finished-at="2021-11-26T17:39:50 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test61() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test61()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test61" duration-ms="4052" started-at="2021-11-26T17:39:50 EST" finished-at="2021-11-26T17:39:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test61 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="766" started-at="2021-11-26T17:39:54 EST" finished-at="2021-11-26T17:39:55 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test61 status=SUCCESS method=TestCreditCards.test61()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:55 EST" finished-at="2021-11-26T17:39:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2728" started-at="2021-11-26T17:39:55 EST" finished-at="2021-11-26T17:39:57 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:39:57 EST" finished-at="2021-11-26T17:39:57 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test62() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test62()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test62" duration-ms="4951" started-at="2021-11-26T17:39:57 EST" finished-at="2021-11-26T17:40:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test62 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="800" started-at="2021-11-26T17:40:02 EST" finished-at="2021-11-26T17:40:03 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test62 status=SUCCESS method=TestCreditCards.test62()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:03 EST" finished-at="2021-11-26T17:40:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2566" started-at="2021-11-26T17:40:03 EST" finished-at="2021-11-26T17:40:06 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:06 EST" finished-at="2021-11-26T17:40:06 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test63() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test63()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test63" duration-ms="3848" started-at="2021-11-26T17:40:06 EST" finished-at="2021-11-26T17:40:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test63 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="796" started-at="2021-11-26T17:40:10 EST" finished-at="2021-11-26T17:40:10 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test63 status=SUCCESS method=TestCreditCards.test63()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:10 EST" finished-at="2021-11-26T17:40:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2662" started-at="2021-11-26T17:40:10 EST" finished-at="2021-11-26T17:40:13 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:13 EST" finished-at="2021-11-26T17:40:13 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test64() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test64()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test64" duration-ms="5875" started-at="2021-11-26T17:40:13 EST" finished-at="2021-11-26T17:40:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test64 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="815" started-at="2021-11-26T17:40:19 EST" finished-at="2021-11-26T17:40:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test64 status=SUCCESS method=TestCreditCards.test64()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:20 EST" finished-at="2021-11-26T17:40:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2762" started-at="2021-11-26T17:40:20 EST" finished-at="2021-11-26T17:40:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:23 EST" finished-at="2021-11-26T17:40:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test65() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test65()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test65" duration-ms="3388" started-at="2021-11-26T17:40:23 EST" finished-at="2021-11-26T17:40:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test65 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="826" started-at="2021-11-26T17:40:26 EST" finished-at="2021-11-26T17:40:27 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test65 status=SUCCESS method=TestCreditCards.test65()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-26T17:40:27 EST" finished-at="2021-11-26T17:40:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2647" started-at="2021-11-26T17:40:27 EST" finished-at="2021-11-26T17:40:29 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:29 EST" finished-at="2021-11-26T17:40:29 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test66() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test66()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test66" duration-ms="3927" started-at="2021-11-26T17:40:29 EST" finished-at="2021-11-26T17:40:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test66 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="816" started-at="2021-11-26T17:40:33 EST" finished-at="2021-11-26T17:40:34 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test66 status=SUCCESS method=TestCreditCards.test66()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:34 EST" finished-at="2021-11-26T17:40:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2721" started-at="2021-11-26T17:40:34 EST" finished-at="2021-11-26T17:40:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:40:37 EST" finished-at="2021-11-26T17:40:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test67() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test67()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test67" duration-ms="3743" started-at="2021-11-26T17:40:37 EST" finished-at="2021-11-26T17:40:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test67 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="817" started-at="2021-11-26T17:40:41 EST" finished-at="2021-11-26T17:40:41 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test67 status=SUCCESS method=TestCreditCards.test67()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:41 EST" finished-at="2021-11-26T17:40:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2580" started-at="2021-11-26T17:40:41 EST" finished-at="2021-11-26T17:40:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:40:44 EST" finished-at="2021-11-26T17:40:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test68() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test68()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test68" duration-ms="3944" started-at="2021-11-26T17:40:44 EST" finished-at="2021-11-26T17:40:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test68 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="811" started-at="2021-11-26T17:40:48 EST" finished-at="2021-11-26T17:40:49 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test68 status=SUCCESS method=TestCreditCards.test68()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:49 EST" finished-at="2021-11-26T17:40:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2381" started-at="2021-11-26T17:40:49 EST" finished-at="2021-11-26T17:40:51 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:51 EST" finished-at="2021-11-26T17:40:51 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test69() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test69()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test69" duration-ms="4093" started-at="2021-11-26T17:40:51 EST" finished-at="2021-11-26T17:40:55 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test69 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="779" started-at="2021-11-26T17:40:55 EST" finished-at="2021-11-26T17:40:56 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test69 status=SUCCESS method=TestCreditCards.test69()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:40:56 EST" finished-at="2021-11-26T17:40:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="setUp" is-config="true" duration-ms="2734" started-at="2021-11-26T17:40:56 EST" finished-at="2021-11-26T17:40:59 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test70()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="test70" duration-ms="5156" started-at="2021-11-26T17:40:59 EST" finished-at="2021-11-26T17:41:04 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test70 -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T17:40:59 EST" finished-at="2021-11-26T17:40:59 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestCreditCards.test70() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="767" started-at="2021-11-26T17:41:04 EST" finished-at="2021-11-26T17:41:05 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test70 status=SUCCESS method=TestCreditCards.test70()[pri:0, instance:testHomePage.TestCreditCards@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T17:41:05 EST" finished-at="2021-11-26T17:41:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testHomePage.TestCreditCards@a7e666]" name="generateReport" is-config="true" duration-ms="19" started-at="2021-11-26T17:41:05 EST" finished-at="2021-11-26T17:41:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testHomePage.TestCreditCards -->
+    </test> <!-- smoke testing BankOfAmerica search -->
+  </suite> <!-- BankOfAmerica Automation Scipt -->
+</testng-results>

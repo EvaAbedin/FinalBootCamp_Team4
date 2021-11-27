@@ -1,0 +1,726 @@
+<html>
+<head>
+<title>TestNG:  smoke testing BankOfAmerica search</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>smoke testing BankOfAmerica search</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>108/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 26 22:43:26 EST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1206 seconds (1206772 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testHomePage.TestSavings.test38()'><b>test38</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>8</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test54()'><b>test54</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>3</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test2()'><b>test2</b><br>Test class: testHomePage.TestChecking</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test75()'><b>test75</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test30()'><b>test30</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>7</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test59()'><b>test59</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test35()'><b>test35</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>10</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test6()'><b>test6</b><br>Test class: testHomePage.TestChecking<br/>
+<a href="#Output-373342545" onClick='toggleBox("Output-373342545", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-373342545" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-373342545">
+TestChecking: test 6<br/>
+Checking: enter Zip Code Input<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test83()'><b>test83</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test39()'><b>test39</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>8</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test103()'><b>test103</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test79()'><b>test79</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test20()'><b>test20</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test42()'><b>test42</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test81()'><b>test81</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test3()'><b>test3</b><br>Test class: testHomePage.TestChecking</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test10()'><b>test10</b><br>Test class: testHomePage.TestChecking<br/>
+<a href="#Output-1963974958" onClick='toggleBox("Output-1963974958", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1963974958" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1963974958">
+Checking: enter Zip Code Input<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestInvesting.test94()'><b>test94</b><br>Test class: testHomePage.TestInvesting</td>
+<td></td>
+<td>15</td>
+<td>testHomePage.TestInvesting@694e1548</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test12()'><b>test12</b><br>Test class: testHomePage.TestSignIn<br/>
+<a href="#Output-1032908467" onClick='toggleBox("Output-1032908467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1032908467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1032908467">
+TestSignIn: test 12<br/>
+SignIn: enter Online ID<br/>
+SignIn: enter Password<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test23()'><b>test23</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestAutoLoan.test87()'><b>test87</b><br>Test class: testHomePage.TestAutoLoan</td>
+<td></td>
+<td>8</td>
+<td>testHomePage.TestAutoLoan@1f554b06</td></tr>
+<tr>
+<td title='testHomePage.TestBetterMoneyHabits.test99()'><b>test99</b><br>Test class: testHomePage.TestBetterMoneyHabits</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestBetterMoneyHabits@1c3a4799</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test15()'><b>test15</b><br>Test class: testHomePage.TestSignIn<br/>
+<a href="#Output-370356001" onClick='toggleBox("Output-370356001", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-370356001" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-370356001">
+SignIn: enter Online ID<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test57()'><b>test57</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test70()'><b>test70</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test65()'><b>test65</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test21()'><b>test21</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test8()'><b>test8</b><br>Test class: testHomePage.TestChecking<br/>
+<a href="#Output-2121551683" onClick='toggleBox("Output-2121551683", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2121551683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2121551683">
+Checking: enter Zip Code Input<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test18()'><b>test18</b><br>Test class: testHomePage.TestSignIn<br/>
+<a href="#Output-783130773" onClick='toggleBox("Output-783130773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-783130773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-783130773">
+SignIn: enter Online ID<br/>
+SignIn: enter Password<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test4()'><b>test4</b><br>Test class: testHomePage.TestChecking</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test1()'><b>test1</b><br>Test class: testHomePage.TestChecking</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test69()'><b>test69</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test17()'><b>test17</b><br>Test class: testHomePage.TestSignIn<br/>
+<a href="#Output-2069678360" onClick='toggleBox("Output-2069678360", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2069678360" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2069678360">
+SignIn: enter Online ID<br/>
+SignIn: enter Password<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test13()'><b>test13</b><br>Test class: testHomePage.TestSignIn<br/>
+<a href="#Output-1298350375" onClick='toggleBox("Output-1298350375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1298350375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1298350375">
+SignIn: enter Online ID<br/>
+SignIn: enter Password<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test41()'><b>test41</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestInvesting.test90()'><b>test90</b><br>Test class: testHomePage.TestInvesting</td>
+<td></td>
+<td>16</td>
+<td>testHomePage.TestInvesting@694e1548</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test11()'><b>test11</b><br>Test class: testHomePage.TestSignIn<br/>
+<a href="#Output-1078905349" onClick='toggleBox("Output-1078905349", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1078905349" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1078905349">
+TestSignIn: test 11<br/>
+SignIn: enter Online ID<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test9()'><b>test9</b><br>Test class: testHomePage.TestChecking<br/>
+<a href="#Output-2013613908" onClick='toggleBox("Output-2013613908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2013613908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2013613908">
+Checking: enter Zip Code Input<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test63()'><b>test63</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test80()'><b>test80</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestAutoLoan.test86()'><b>test86</b><br>Test class: testHomePage.TestAutoLoan</td>
+<td></td>
+<td>7</td>
+<td>testHomePage.TestAutoLoan@1f554b06</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test40()'><b>test40</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestInvesting.test91()'><b>test91</b><br>Test class: testHomePage.TestInvesting</td>
+<td></td>
+<td>15</td>
+<td>testHomePage.TestInvesting@694e1548</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test84()'><b>test84</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test52()'><b>test52</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>3</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestBetterMoneyHabits.test96()'><b>test96</b><br>Test class: testHomePage.TestBetterMoneyHabits</td>
+<td></td>
+<td>10</td>
+<td>testHomePage.TestBetterMoneyHabits@1c3a4799</td></tr>
+<tr>
+<td title='testHomePage.TestBetterMoneyHabits.test102()'><b>test102</b><br>Test class: testHomePage.TestBetterMoneyHabits</td>
+<td></td>
+<td>10</td>
+<td>testHomePage.TestBetterMoneyHabits@1c3a4799</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test14()'><b>test14</b><br>Test class: testHomePage.TestSignIn<br/>
+<a href="#Output-1952473604" onClick='toggleBox("Output-1952473604", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1952473604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1952473604">
+SignIn: enter Online ID<br/>
+SignIn: enter Password<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test64()'><b>test64</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test106()'><b>test106</b><br>Test class: testHomePage.TestSignIn</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test76()'><b>test76</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test85()'><b>test85</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test49()'><b>test49</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test58()'><b>test58</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test45()'><b>test45</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestBetterMoneyHabits.test107()'><b>test107</b><br>Test class: testHomePage.TestBetterMoneyHabits</td>
+<td></td>
+<td>0</td>
+<td>testHomePage.TestBetterMoneyHabits@1c3a4799</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test27()'><b>test27</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test24()'><b>test24</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test66()'><b>test66</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test50()'><b>test50</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test46()'><b>test46</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>3</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test56()'><b>test56</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>7</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test62()'><b>test62</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestBetterMoneyHabits.test101()'><b>test101</b><br>Test class: testHomePage.TestBetterMoneyHabits</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestBetterMoneyHabits@1c3a4799</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test55()'><b>test55</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test36()'><b>test36</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>11</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test22()'><b>test22</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestInvesting.test95()'><b>test95</b><br>Test class: testHomePage.TestInvesting</td>
+<td></td>
+<td>11</td>
+<td>testHomePage.TestInvesting@694e1548</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test28()'><b>test28</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test73()'><b>test73</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>8</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test82()'><b>test82</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestInvesting.test88()'><b>test88</b><br>Test class: testHomePage.TestInvesting</td>
+<td></td>
+<td>12</td>
+<td>testHomePage.TestInvesting@694e1548</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test53()'><b>test53</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test60()'><b>test60</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>3</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test32()'><b>test32</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test68()'><b>test68</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test7()'><b>test7</b><br>Test class: testHomePage.TestChecking<br/>
+<a href="#Output-252247502" onClick='toggleBox("Output-252247502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-252247502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-252247502">
+Checking: enter Zip Code Input<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestInvesting.test89()'><b>test89</b><br>Test class: testHomePage.TestInvesting</td>
+<td></td>
+<td>12</td>
+<td>testHomePage.TestInvesting@694e1548</td></tr>
+<tr>
+<td title='testHomePage.TestBetterMoneyHabits.test100()'><b>test100</b><br>Test class: testHomePage.TestBetterMoneyHabits</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestBetterMoneyHabits@1c3a4799</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test16()'><b>test16</b><br>Test class: testHomePage.TestSignIn<br/>
+<a href="#Output-1519396442" onClick='toggleBox("Output-1519396442", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1519396442" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1519396442">
+SignIn: enter Online ID<br/>
+SignIn: enter Password<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test5()'><b>test5</b><br>Test class: testHomePage.TestChecking</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test33()'><b>test33</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>11</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test48()'><b>test48</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>7</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test19()'><b>test19</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>3</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test71()'><b>test71</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test104()'><b>test104</b><br>Test class: testHomePage.TestChecking</td>
+<td></td>
+<td>10</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test67()'><b>test67</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test29()'><b>test29</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test47()'><b>test47</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test31()'><b>test31</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestInvesting.test92()'><b>test92</b><br>Test class: testHomePage.TestInvesting</td>
+<td></td>
+<td>15</td>
+<td>testHomePage.TestInvesting@694e1548</td></tr>
+<tr>
+<td title='testHomePage.TestBetterMoneyHabits.test97()'><b>test97</b><br>Test class: testHomePage.TestBetterMoneyHabits</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestBetterMoneyHabits@1c3a4799</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test25()'><b>test25</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>7</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test74()'><b>test74</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test51()'><b>test51</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestChecking.test105()'><b>test105</b><br>Test class: testHomePage.TestChecking<br/>
+<a href="#Output-1925059423" onClick='toggleBox("Output-1925059423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1925059423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1925059423">
+Checking: enter Zip Code Input<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>testHomePage.TestChecking@5a8806ef</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test77()'><b>test77</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test44()'><b>test44</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestBetterMoneyHabits.test98()'><b>test98</b><br>Test class: testHomePage.TestBetterMoneyHabits</td>
+<td></td>
+<td>9</td>
+<td>testHomePage.TestBetterMoneyHabits@1c3a4799</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test43()'><b>test43</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test26()'><b>test26</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>8</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestCreditCards.test61()'><b>test61</b><br>Test class: testHomePage.TestCreditCards</td>
+<td></td>
+<td>4</td>
+<td>testHomePage.TestCreditCards@76707e36</td></tr>
+<tr>
+<td title='testHomePage.TestSignIn.test108()'><b>test108</b><br>Test class: testHomePage.TestSignIn</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestSignIn@4f063c0a</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test37()'><b>test37</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>8</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestInvesting.test93()'><b>test93</b><br>Test class: testHomePage.TestInvesting</td>
+<td></td>
+<td>15</td>
+<td>testHomePage.TestInvesting@694e1548</td></tr>
+<tr>
+<td title='testHomePage.TestSavings.test34()'><b>test34</b><br>Test class: testHomePage.TestSavings</td>
+<td></td>
+<td>12</td>
+<td>testHomePage.TestSavings@1e6d1014</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test78()'><b>test78</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>6</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+<tr>
+<td title='testHomePage.TestHomeLoans.test72()'><b>test72</b><br>Test class: testHomePage.TestHomeLoans</td>
+<td></td>
+<td>5</td>
+<td>testHomePage.TestHomeLoans@614ddd49</td></tr>
+</table><p>
+</body>
+</html>

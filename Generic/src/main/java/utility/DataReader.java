@@ -117,9 +117,13 @@ public class DataReader {
 
     public static void main(String[] args) throws IOException {
         DataReader dr = new DataReader();
-        String [] list = dr.colReader("C:\\Users\\nassi\\IdeaProjects\\FinalProject\\CitiBank\\data\\items.xls",1);
+        String [] list = dr.colReader("C:\\Users\\russe\\PNT\\FinalBootCamp_Team4\\Generic\\driver\\chromedriver.exe",1);
         for (String str: list) {
             System.out.println(str);
         }
+    }
+
+    public String[] fileReader2(String path, int i) {
+        return new String[0];
     }
 }

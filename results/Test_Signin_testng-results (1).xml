@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\russe\PNT\FinalBootCamp_Team4\BankOfAmerica\test-output\html]]>
+    </line>
+    <line>
+      <![CDATA[TestSignIn: test 11]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Online ID]]>
+    </line>
+    <line>
+      <![CDATA[TestSignIn: test 12]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Online ID]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Password]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Online ID]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Password]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Online ID]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Password]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Online ID]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Online ID]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Password]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Online ID]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Password]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Online ID]]>
+    </line>
+    <line>
+      <![CDATA[SignIn: enter Password]]>
+    </line>
+  </reporter-output>
+  <suite name="BankOfAmerica Automation Scipt" duration-ms="75632" started-at="2021-11-26T19:49:24 EST" finished-at="2021-11-26T19:50:40 EST">
+    <groups>
+    </groups>
+    <test name="smoke testing BankOfAmerica search" duration-ms="75632" started-at="2021-11-26T19:49:24 EST" finished-at="2021-11-26T19:50:40 EST">
+      <class name="testHomePage.TestSignIn">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="extentSetup" is-config="true" duration-ms="263" started-at="2021-11-26T19:49:24 EST" finished-at="2021-11-26T19:49:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4339e0de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\russe\PNT\FinalBootCamp_Team4\BankOfAmerica\test-output\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="4584" started-at="2021-11-26T19:49:24 EST" finished-at="2021-11-26T19:49:29 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="10" started-at="2021-11-26T19:49:29 EST" finished-at="2021-11-26T19:49:29 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test106() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test106()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test106" duration-ms="6295" started-at="2021-11-26T19:49:29 EST" finished-at="2021-11-26T19:49:35 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test106 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="1012" started-at="2021-11-26T19:49:35 EST" finished-at="2021-11-26T19:49:36 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test106 status=SUCCESS method=TestSignIn.test106()[pri:0, instance:testHomePage.TestSignIn@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T19:49:36 EST" finished-at="2021-11-26T19:49:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2627" started-at="2021-11-26T19:49:36 EST" finished-at="2021-11-26T19:49:39 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T19:49:39 EST" finished-at="2021-11-26T19:49:39 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test108() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test108()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test108" duration-ms="4039" started-at="2021-11-26T19:49:39 EST" finished-at="2021-11-26T19:49:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test108 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="762" started-at="2021-11-26T19:49:43 EST" finished-at="2021-11-26T19:49:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test108 status=SUCCESS method=TestSignIn.test108()[pri:0, instance:testHomePage.TestSignIn@a7e666] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-26T19:49:44 EST" finished-at="2021-11-26T19:49:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2512" started-at="2021-11-26T19:49:44 EST" finished-at="2021-11-26T19:49:46 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T19:49:46 EST" finished-at="2021-11-26T19:49:46 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test11()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test11()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test11" duration-ms="2631" started-at="2021-11-26T19:49:46 EST" finished-at="2021-11-26T19:49:49 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestSignIn: test 11]]>
+            </line>
+            <line>
+              <![CDATA[SignIn: enter Online ID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="756" started-at="2021-11-26T19:49:49 EST" finished-at="2021-11-26T19:49:49 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test11 status=SUCCESS method=TestSignIn.test11()[pri:0, instance:testHomePage.TestSignIn@a7e666] output=TestSignIn: test 11]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T19:49:49 EST" finished-at="2021-11-26T19:49:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2253" started-at="2021-11-26T19:49:49 EST" finished-at="2021-11-26T19:49:52 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T19:49:52 EST" finished-at="2021-11-26T19:49:52 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test12()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test12()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test12" duration-ms="3209" started-at="2021-11-26T19:49:52 EST" finished-at="2021-11-26T19:49:55 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestSignIn: test 12]]>
+            </line>
+            <line>
+              <![CDATA[SignIn: enter Online ID]]>
+            </line>
+            <line>
+              <![CDATA[SignIn: enter Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="738" started-at="2021-11-26T19:49:55 EST" finished-at="2021-11-26T19:49:56 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test12 status=SUCCESS method=TestSignIn.test12()[pri:0, instance:testHomePage.TestSignIn@a7e666] output=TestSignIn: test 12]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T19:49:56 EST" finished-at="2021-11-26T19:49:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2599" started-at="2021-11-26T19:49:56 EST" finished-at="2021-11-26T19:49:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T19:49:58 EST" finished-at="2021-11-26T19:49:58 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test13() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test13()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test13" duration-ms="3185" started-at="2021-11-26T19:49:58 EST" finished-at="2021-11-26T19:50:01 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn: enter Online ID]]>
+            </line>
+            <line>
+              <![CDATA[SignIn: enter Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="777" started-at="2021-11-26T19:50:01 EST" finished-at="2021-11-26T19:50:02 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test13 status=SUCCESS method=TestSignIn.test13()[pri:0, instance:testHomePage.TestSignIn@a7e666] output=SignIn: enter Online ID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T19:50:02 EST" finished-at="2021-11-26T19:50:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2831" started-at="2021-11-26T19:50:02 EST" finished-at="2021-11-26T19:50:05 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T19:50:05 EST" finished-at="2021-11-26T19:50:05 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test14() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test14()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test14" duration-ms="3424" started-at="2021-11-26T19:50:05 EST" finished-at="2021-11-26T19:50:08 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn: enter Online ID]]>
+            </line>
+            <line>
+              <![CDATA[SignIn: enter Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="768" started-at="2021-11-26T19:50:08 EST" finished-at="2021-11-26T19:50:09 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test14 status=SUCCESS method=TestSignIn.test14()[pri:0, instance:testHomePage.TestSignIn@a7e666] output=SignIn: enter Online ID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T19:50:09 EST" finished-at="2021-11-26T19:50:09 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2549" started-at="2021-11-26T19:50:09 EST" finished-at="2021-11-26T19:50:12 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T19:50:12 EST" finished-at="2021-11-26T19:50:12 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test15() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test15()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test15" duration-ms="6011" started-at="2021-11-26T19:50:12 EST" finished-at="2021-11-26T19:50:18 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn: enter Online ID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="749" started-at="2021-11-26T19:50:18 EST" finished-at="2021-11-26T19:50:19 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test15 status=SUCCESS method=TestSignIn.test15()[pri:0, instance:testHomePage.TestSignIn@a7e666] output=SignIn: enter Online ID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T19:50:19 EST" finished-at="2021-11-26T19:50:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2746" started-at="2021-11-26T19:50:19 EST" finished-at="2021-11-26T19:50:21 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="1" started-at="2021-11-26T19:50:21 EST" finished-at="2021-11-26T19:50:21 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test16() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test16()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test16" duration-ms="2636" started-at="2021-11-26T19:50:21 EST" finished-at="2021-11-26T19:50:24 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn: enter Online ID]]>
+            </line>
+            <line>
+              <![CDATA[SignIn: enter Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test16 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="788" started-at="2021-11-26T19:50:24 EST" finished-at="2021-11-26T19:50:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test16 status=SUCCESS method=TestSignIn.test16()[pri:0, instance:testHomePage.TestSignIn@a7e666] output=SignIn: enter Online ID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T19:50:25 EST" finished-at="2021-11-26T19:50:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2931" started-at="2021-11-26T19:50:25 EST" finished-at="2021-11-26T19:50:28 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T19:50:28 EST" finished-at="2021-11-26T19:50:28 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test17() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test17()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test17" duration-ms="3444" started-at="2021-11-26T19:50:28 EST" finished-at="2021-11-26T19:50:31 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn: enter Online ID]]>
+            </line>
+            <line>
+              <![CDATA[SignIn: enter Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test17 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="809" started-at="2021-11-26T19:50:31 EST" finished-at="2021-11-26T19:50:32 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test17 status=SUCCESS method=TestSignIn.test17()[pri:0, instance:testHomePage.TestSignIn@a7e666] output=SignIn: enter Online ID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-11-26T19:50:32 EST" finished-at="2021-11-26T19:50:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="setUp" is-config="true" duration-ms="2740" started-at="2021-11-26T19:50:32 EST" finished-at="2021-11-26T19:50:35 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.BankOfAmerica.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="startExtent" is-config="true" duration-ms="0" started-at="2021-11-26T19:50:35 EST" finished-at="2021-11-26T19:50:35 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testHomePage.TestSignIn.test18() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="test18()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="test18" duration-ms="4365" started-at="2021-11-26T19:50:35 EST" finished-at="2021-11-26T19:50:39 EST">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn: enter Online ID]]>
+            </line>
+            <line>
+              <![CDATA[SignIn: enter Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test18 -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterEachTestMethod" is-config="true" duration-ms="760" started-at="2021-11-26T19:50:39 EST" finished-at="2021-11-26T19:50:40 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test18 status=SUCCESS method=TestSignIn.test18()[pri:0, instance:testHomePage.TestSignIn@a7e666] output=SignIn: enter Online ID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-26T19:50:40 EST" finished-at="2021-11-26T19:50:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testHomePage.TestSignIn@a7e666]" name="generateReport" is-config="true" duration-ms="51" started-at="2021-11-26T19:50:40 EST" finished-at="2021-11-26T19:50:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testHomePage.TestSignIn -->
+    </test> <!-- smoke testing BankOfAmerica search -->
+  </suite> <!-- BankOfAmerica Automation Scipt -->
+</testng-results>

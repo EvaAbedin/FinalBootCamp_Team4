@@ -11,12 +11,27 @@
     <!--<parameter name="browserVersion" value="65.0"/>-->
     <parameter name="url" value="https://www.BankOfAmerica.com"/>
     <test name = "smoke testing BankOfAmerica search">
-        <classes>
+
+            <classes>
+
+                    <class name="testHomePage.TestChecking"/>
+                    <class name="testHomePage.TestSignIn"/>
+                    <class name = "testHomePage.TestSavings"/>
+                    <class name="testHomePage.TestCreditCards"/>
+                    <class name="testHomePage.TestHomeLoans"/>
+                    <class name="testHomePage.TestAutoLoan"/>
+                    <class name="testHomePage.TestInvesting"/>
+                    <class name="testHomePage.TestBetterMoneyHabits"/>
 
 
 
-            <class name="testhome.LogInTest"/>
-        </classes>
+
+
+            </classes>
+
+            
+
+
     </test>
 
 </suite>
